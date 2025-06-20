@@ -1,0 +1,25 @@
+{
+  "name": "chrono-gift-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd chronogift-frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "framer-motion": "^12.16.0",
+    "google-auth-library": "^9.15.1",
+    "luxon": "^3.6.1",
+    "moment-timezone": "^0.6.0",
+    "mongoose": "^7.8.7",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2"
+  }
+}
