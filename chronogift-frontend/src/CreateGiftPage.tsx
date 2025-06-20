@@ -4,7 +4,7 @@ import type { User } from "./types";
 import styled, { keyframes, ThemeProvider, createGlobalStyle,DefaultTheme } from "styled-components";
 import { DateTime } from "luxon"; // ✅ Import Luxon
 
-const BACKEND_URL = "https://chrono-gift.onrender.com";
+const BACKEND_URL = "http://localhost:5000/";
 
 // Themes...
 const lightTheme: DefaultTheme = {
@@ -332,8 +332,8 @@ function CreateGiftPage({ user, onLogout }: { user: User; onLogout: () => void }
       </PageContainer>
       <Footer>
         Developed by{" "}
-        <a href="https://www.linkedin.com/in/govarthan-v/" target="_blank" rel="noopener noreferrer">
-          Govarthan V
+        <a href="https://www.linkedin.com/in/yuvanesh-v-78730b32a/" target="_blank" rel="noopener noreferrer">
+          Yuvanesh V
         </a>
       </Footer>
     </ThemeProvider>

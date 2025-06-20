@@ -19,7 +19,8 @@ const Footer = styled.footer`
 export default function FooterCredits() {
   return (
     <Footer>
-      Developed by <a href="https://www.linkedin.com/in/govarthan-v/" target="_blank" rel="noopener noreferrer" style={{color: "#d48806", textDecoration: "none", fontWeight: "600"}}>Govarthan V</a>
-    </Footer>
+      <a href="https://www.linkedin.com/in/yuvanesh-v-78730b32a/" target="_blank" rel="noopener noreferrer">
+          Yuvanesh V
+        </a></Footer>
   );
 }
