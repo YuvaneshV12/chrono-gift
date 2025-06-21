@@ -143,7 +143,7 @@ npx prettier --write .
 
 Have suggestions, feedback, or found a bug? We'd love to hear from you!
 
-- 📧 Email: yuvaneshv12@gmail.com
+- 📧 Email: yuvaneshf23@gmail.com
 - 🧑‍💻 GitHub: [@YuvaneshV12](https://github.com/YuvaneshV12)
 
 ---
