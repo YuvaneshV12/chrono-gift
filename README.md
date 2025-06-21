@@ -142,7 +142,12 @@ This project is licensed under the MIT License.
 
 3. Thanks to all contributors and testers!
 
-📬 Contact
-Have suggestions or feedback? Reach out via issues or fork and make it even better!
+## 📬 Contact
+
+Have suggestions, feedback, or found a bug? We'd love to hear from you!
+
+- 📧 Email: yuvaneshv12@gmail.com
+- 🧑‍💻 GitHub: [@YuvaneshV12](https://github.com/YuvaneshV12)
+
 ---
 Let me know if you'd like me to include screenshots, deployment instructions (e.g., Vercel/Render)
