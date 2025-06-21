@@ -74,13 +74,13 @@ npm install
 cd chronogift-frontend
 npm install
 
-🔌 Environment Variables
+## 🔌 Environment Variables
 
 Create a .env file in the root and frontend (if needed):
 MONGO_URI=mongodb://localhost:27017/chrono-gift
 PORT=5000
 
-▶️ Run the App
+## ▶️ Run the App
 
 Start Backend
 node server.js
@@ -92,7 +92,7 @@ npm run dev
 Frontend runs on: http://localhost:5173
 Backend runs on: http://localhost:5000
 
-🧪 Pages Overview
+## 🧪 Pages Overview
 
 CreateGiftPage.tsx
 Form to input recipient's email, gift message, and unlock timer
@@ -103,7 +103,7 @@ Lets the recipient open the gift after the timer is expired
 LoginPage.tsx
 Optional: for sender authentication (if implemented)
 
-🗃️ Database Model (Conceptual)
+## 🗃️ Database Model (Conceptual)
 {
   senderEmail: String,
   recipientEmail: String,
@@ -113,7 +113,7 @@ Optional: for sender authentication (if implemented)
   createdAt: Date
 }
 
-🧼 Code Quality
+## 🧼 Code Quality
 
 npm run lint
 
@@ -121,7 +121,7 @@ Format (optional):
 
 npx prettier --write .
 
-🤝 Contributing
+## 🤝 Contributing
 
 1. Fork the repo
 
@@ -131,10 +131,7 @@ npx prettier --write .
 
 4. Open a pull request
 
-📄 License
-This project is licensed under the MIT License.
-
-🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 1. Inspired by suspenseful secret gift ideas 💡
 
