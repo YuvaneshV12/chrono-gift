@@ -10,7 +10,7 @@ import OpenGiftPage from "./OpenGiftPage";
 import FooterCredits from "./FooterCredits";
 import type { User } from "./types";
 
-const GOOGLE_CLIENT_ID = "980139118410-2mnqsu060hj0t1bgcrr6qbck2alnr42k.apps.googleusercontent.com";
+const GOOGLE_CLIENT_ID = "758700188034-7g1o6a589rhld67beeo6arq0oecgqsj8.apps.googleusercontent.com";
 
 const lightTheme: DefaultTheme = {
   mode: "light", 
