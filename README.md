@@ -2,6 +2,8 @@
 
 **chrono-gift** is a full-stack web application that lets users send digital gifts to others via email — with a twist: recipients can only open their gift **after a timer expires**. Built with React, TypeScript, Express, and MongoDB, it blends fun, suspense, and modern web tech.
 
+🌐 **Live Demo:** [https://chrono-gift-2dlp.onrender.com](https://chrono-gift-2dlp.onrender.com)
+
 ---
 
 ## 🚀 Features
@@ -31,7 +33,6 @@
 ---
 
 ## 📁 Project Structure
-
 chrono-gift/
 ├── chronogift-frontend/
 │ ├── public/
@@ -64,44 +65,41 @@ chrono-gift/
 ### ⚙️ Prerequisites
 
 - Node.js ≥ 16.x
-- MongoDB running locally or a connection URI (e.g. Atlas)
+- MongoDB running locally or via Atlas
 
 ### 📦 Install Dependencies
 
-From the root directory:
-
+# From the root directory
 npm install
 cd chronogift-frontend
 npm install
 
-## 🔌 Environment Variables
-
-Create a .env file in the root and frontend (if needed):
+##🔌 Environment Variables
+Create a .env file in the root:
 MONGO_URI=mongodb://localhost:27017/chrono-gift
 PORT=5000
 
-## ▶️ Run the App
+## ▶️ Run the App Locally
 
-Start Backend
+Backend
 node server.js
 
-Start Frontend
+Frontend
 cd chronogift-frontend
 npm run dev
 
-Frontend runs on: http://localhost:5173
-Backend runs on: http://localhost:5000
+Frontend: http://localhost:5173
 
-## 🧪 Pages Overview
+Backend: http://localhost:5000
 
-CreateGiftPage.tsx
-Form to input recipient's email, gift message, and unlock timer
+##🧪 Pages Overview
+CreateGiftPage.tsx – Form to input recipient’s email, gift message, and unlock time
 
-OpenGiftPage.tsx
-Lets the recipient open the gift after the timer is expired
+OpenGiftPage.tsx – Displays gift, locked until timer expires
 
-LoginPage.tsx
-Optional: for sender authentication (if implemented)
+LoginPage.tsx – Optional sender authentication
+
+FooterCredits.tsx – Footer with credits/info
 
 ## 🗃️ Database Model (Conceptual)
 {
@@ -113,38 +111,67 @@ Optional: for sender authentication (if implemented)
   createdAt: Date
 }
 
-## 🧼 Code Quality
+##💅 Code Quality
 
 npm run lint
 
-Format (optional):
-
+Format code with Prettier:
 npx prettier --write .
 
-## 🤝 Contributing
+🚀 Deployment
+🌍 Live App
+Deployed using Render:
 
-1. Fork the repo
+🔗 https://chrono-gift-2dlp.onrender.com
 
-2. Create a new branch: git checkout -b feature/my-feature
+To deploy your own version:
 
-3. Commit your changes
+Push the code to a GitHub repo
 
-4. Open a pull request
+Create a Render account
 
-## 🙏 Acknowledgements
+Create a Web Service for the backend and connect your repo
 
-1. Inspired by suspenseful secret gift ideas 💡
+Add environment variables (MONGO_URI, PORT)
 
-2. Built using the MERN-like stack with Vite for lightning-fast builds
+For frontend, you can deploy separately on platforms like Vercel or Netlify
 
-3. Thanks to all contributors and testers!
+## 📸 Screenshots (Optional Section)
+You can include screenshots like:
 
-## 📬 Contact
+Gift creation form
 
-Have suggestions, feedback, or found a bug? We'd love to hear from you!
+Locked gift view
 
-- 📧 Email: yuvaneshf23@gmail.com
-- 🧑‍💻 GitHub: [@YuvaneshV12](https://github.com/YuvaneshV12)
+Gift unlocked view
 
----
-Let me know if you'd like me to include screenshots, deployment instructions (e.g., Vercel/Render)
+Mobile responsiveness example
+
+📌 Add images in src/assets/ and reference them using markdown:
+
+![Gift Creation](https://i.ibb.co/WWvdr97d/Screenshot-2025-06-24-193018.png)
+
+##🤝 Contributing
+Fork the repo
+
+Create a new branch: git checkout -b feature/my-feature
+
+Commit your changes
+
+Open a pull request
+
+##🙏 Acknowledgements
+Inspired by suspenseful secret gift ideas 💡
+
+Built using the MERN-like stack with Vite for lightning-fast builds
+
+Thanks to all contributors and testers!
+
+##📬 Contact
+Got suggestions, feedback, or found a bug? Reach out!
+
+📧 Email: yuvaneshf23@gmail.com
+
+🧑‍💻 GitHub: @YuvaneshV12
+
+Let me know if you'd like help creating a screenshot layout, README badges (like Netlify/Render build status), or setting up deployment guides step-by-step.
